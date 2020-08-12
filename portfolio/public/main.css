@@ -1,0 +1,265 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+
+a{ text-decoration:none;}
+a:hover{text-decoration:none;}
+li{list-style:none;}
+p{font-size:0.9rem;
+line-height:1.6;
+font-weight:400;
+color:black;
+font-family: 'Lato', sans-serif;
+}
+
+i{
+color:#2fccd0;
+}
+
+.extra-div h2 .servicediv h2{
+    font-size:0.9rem;
+    margin:20px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;
+}
+.headerz {
+    width:100%;
+    height:100vh;
+   background-image:url("bg.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   position: relative;
+   font-family: 'Lato', sans-serif;
+
+}
+
+.header::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    opacity:.3;
+    z-index:-1;
+    /*background-image: linear-gradient(to right,#1e5799 0%,#3ccdbb 0%,#16c9f6 100%);*/
+}
+
+.navbar::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    opacity:.3;
+    z-index:-1;
+    background-image: linear-gradient(to right,#5b5d5f 0%,#464b4a 0%,#475052 100%); 
+}
+
+.nav-item a{
+color:#fff;
+font-weight:bold;
+}
+
+.header-section{
+    width:100%;
+    height:inherit;
+    color:white;
+    text-align: center;
+    position: relative;
+}
+.center-div{
+    width:100%;
+    height:auto;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-family: 'Lato', sans-serif;
+
+}
+
+
+
+.heading{
+    margin-bottom:50px;
+}
+
+.heading h1{
+ font-size:1.5rem;
+ font-size:600;
+ text-transform:uppercase;
+}
+
+
+  .round img{
+    border-radius:50%;
+  }
+/* extra div*/
+  
+.header-extradiv{
+    width:100%;
+    height:auto;
+    margin:100px 0;
+
+}
+.happycilents{
+    width:100%;
+    height:100vh;
+    padding:80px 0;
+}
+
+.box{
+    text-align:center;
+    border:1px solid rgba(0,0,0,0.2);
+    box-shadow:0 5px 10px 0 rgba(0,0,0,0.3);
+    border-radius:2px;
+    transition:0.3s ease;
+    height: 300px;
+
+}
+
+
+.box:hover{
+    background-color: rgb(188, 191, 201);
+}
+.box:hover p{
+    color:white;
+
+}
+
+
+.box a{
+    position: relative;
+}
+.box a img{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    margin-top:10px;
+   
+}
+
+.box h1{
+    font-size:18px;
+    font-weight:700;
+    color:rgb(70, 55, 207);
+    
+  
+}
+
+
+.box ul li{
+    text-align: left;
+    margin-left: 130px; 
+}
+
+
+.aboutus{
+    width:100%;
+    height:100vh;
+    padding:80px 0;
+    position: relative;
+}
+
+.aboutus::before{
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    background:linear-gradient(333deg,#fff 55%,#fff 0%);
+    z-index: -1;
+}
+
+.aboutus h5{
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.contactus{
+    width:100%;
+    height:100vh;
+    padding:80px 0;
+    position: relative;
+}
+
+.contactus::before{
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    background:linear-gradient(333deg,#444c4e 55%,#fff 0%);
+    z-index: -1;
+}
+
+
+ .button{
+    border:1px solid#50d1c0;
+    background-color: transparent;
+    border-radius:100px;
+    margin:0 5px;
+    padding:12px 35px;
+   
+    color:#50d1c0;
+    font-size:1rem;
+    font-weight:400;
+    line-height:1.4;
+    text-align:center;
+}
+
+.footers{
+    width:100%;
+    height:auto;
+    padding:70px 0 20 0;
+    background-color:#00abff;
+    position: relative;
+}
+.footers p{
+color:white;
+}
+
+.footers li a{
+    text-transform: capitalize;
+    color:#fff;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size:0.9rem;
+}
+.footers h3{
+    text-transform: capitalize;
+    color:#fff;
+    margin-bottom: 25px;
+    font-size:1.2rem!important;
+    font-weight: 600;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.4);
+}
+
+#myBtn{
+   
+    position:fixed;
+    bottom: 20px;
+    right:40px;
+    z-index:99;
+    border:none;
+    color:#fff;
+    background-color: #00abff;
+    border-radius: 10px;
+    padding:10px;
+}
+
+#myBtn:hover{
+    background-color: #606060;
+}
+
+
+
+
+
+
+
+
+
+
